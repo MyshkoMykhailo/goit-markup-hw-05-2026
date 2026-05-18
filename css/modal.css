@@ -138,7 +138,7 @@ textarea.modal-info-input::placeholder {
 }
 
 .privacy-policy {
-  line-height: 1.33;
+  line-height: 1.17;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--iris);
@@ -177,9 +177,11 @@ textarea.modal-info-input::placeholder {
 
 .modal-form-button {
   display: block;
+  width: 169px;
   margin: 0 auto;
-  padding: 16px 65px;
+  padding: 16px 0;
   border-radius: 4px;
+  text-align: center;
   outline: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: var(--iris);
