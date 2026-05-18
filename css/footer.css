@@ -58,9 +58,13 @@
   fill: var(--cloud);
 }
 
-.footer-subscribe-form {
+.footer-subscribe-form-wrapper {
   margin-left: auto;
 }
+
+/*.footer-subscribe-form {
+  margin-left: auto;
+}*/
 
 .footer-subscribe-form-input {
   border: 1px solid var(--white);
@@ -69,9 +73,17 @@
   width: 264px;
   padding: 8px 16px;
   margin: 0;
+  outline: none;
   background-color: inherit;
   color: var(--white);
   font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-form-input:focus {
+  border-color: var(--green);
 }
 
 .footer-subscribe-form-input::placeholder {

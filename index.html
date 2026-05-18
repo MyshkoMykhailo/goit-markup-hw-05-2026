@@ -549,32 +549,33 @@
           </ul>
         </div>
 
-        <form class="footer-subscribe-form">
-          <label for="footer-email" class="footer-part-heading"
-            >Subscribe</label
-          >
-          <input
-            type="email"
-            class="footer-subscribe-form-input"
-            id="footer-email"
-            placeholder="E-mail"
-          /><button type="submit" class="footer-subscribe-form-button">
-            <span class="footer-subscribe-form-button-wrap"
-              >Subscribe<svg
-                class="footer-subscribe-form-button-icon"
-                width="24"
-                height="24"
-              >
-                <use href="./images/icons.svg#icon-send"></use></svg
-            ></span>
-          </button>
-        </form>
+        <div class="footer-subscribe-form-wrapper">
+          <p for="footer-email" class="footer-part-heading">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <input
+              type="email"
+              class="footer-subscribe-form-input"
+              id="footer-email"
+              name="email"
+              placeholder="E-mail"
+            /><button type="submit" class="footer-subscribe-form-button">
+              <span class="footer-subscribe-form-button-wrap"
+                >Subscribe<svg
+                  class="footer-subscribe-form-button-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-send"></use></svg
+              ></span>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!--#endregion-->
 
     <!-- #region Modal Overlay -->
-    <div class="modal-overlay is-open">
+    <div id="modal" class="modal-overlay i s-open">
       <div class="modal">
         <div class="modal-close-button">
           <svg class="modal-close-button-icon" width="8" height="8">
