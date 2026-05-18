@@ -133,6 +133,7 @@ textarea.modal-info-input::placeholder {
 
 .modal-form-checkbox-label {
   position: relative;
+  color: var(--light-slate);
   padding-left: 24px;
   margin-bottom: 24px;
 }
