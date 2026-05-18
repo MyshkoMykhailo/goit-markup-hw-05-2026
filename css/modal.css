@@ -72,7 +72,7 @@
   margin-bottom: 16px;
 }
 
-.modal-info-inputs-item {
+.modal-info-inputs-item:not(:last-child) {
   margin-bottom: 8px;
 }
 
@@ -124,6 +124,12 @@ textarea.modal-info-input {
   border-color: var(--iris);
 }
 
+textarea.modal-info-input {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
 textarea.modal-info-input::placeholder {
   font-size: 12px;
   line-height: 1.17;
@@ -133,9 +139,13 @@ textarea.modal-info-input::placeholder {
 
 .modal-form-checkbox-label {
   position: relative;
-  color: var(--light-slate);
   padding-left: 24px;
   margin-bottom: 24px;
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
 }
 
 .privacy-policy {
