@@ -550,7 +550,7 @@
         </div>
 
         <div class="footer-subscribe-form-wrapper">
-          <p for="footer-email" class="footer-part-heading">Subscribe</p>
+          <p class="footer-part-heading">Subscribe</p>
           <form class="footer-subscribe-form">
             <input
               type="email"
@@ -577,11 +577,11 @@
     <!-- #region Modal Overlay -->
     <div id="modal" class="modal-overlay is-open">
       <div class="modal">
-        <div class="modal-close-button">
+        <button type="button" class="modal-close-button">
           <svg class="modal-close-button-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
-        </div>
+        </button>
         <p class="modal-heading">
           Leave your contacts and we will call you back
         </p>
@@ -654,6 +654,7 @@
               type="checkbox"
               class="modal-form-native-checkbox sr-only"
               id="privacy-policy-agreement"
+              name="privacy-policy-agreement-checked"
               required
             />
             <div class="modal-form-custom-checkbox">
