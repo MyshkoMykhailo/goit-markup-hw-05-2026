@@ -52,6 +52,7 @@
 .modal-close-button:active {
   background-color: var(--ocean);
   color: var(--white);
+  cursor: pointer;
 }
 
 .modal-close-button-icon {
@@ -156,11 +157,16 @@ textarea.modal-info-input::placeholder {
   border: 1px solid var(--navy-blue-modal);
   color: var(--white);
   background-color: var(--white);
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-native-checkbox:checked + .modal-form-custom-checkbox {
   color: var(--cloud);
   background-color: var(--ocean);
+  border-color: var(--ocean);
 }
 
 .modal-form-custom-checkbox-icon {
