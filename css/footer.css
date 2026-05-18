@@ -68,6 +68,7 @@
   height: 40px;
   width: 264px;
   padding: 8px 16px;
+  margin: 0;
   background-color: inherit;
   color: var(--white);
   font-size: 12px;
@@ -89,6 +90,13 @@
   line-height: 150%;
   letter-spacing: 0.04em;
   color: var(--white);
+}
+
+.footer-subscribe-form-button:hover,
+.footer-subscribe-form-button:focus,
+.footer-subscribe-form-button:active {
+  background-color: var(--green);
+  cursor: pointer;
 }
 
 .footer-subscribe-form-button-wrap {
